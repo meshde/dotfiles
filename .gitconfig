@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Mehmood Deshmukh
+#	email = meshde@Mehmoods-MacBook-Pro.local
+[user]
+	email = meshde.md@gmail.com
+	name = meshde
+[core]
+	excludeFile = .gitignore
+	autocrlf = input
+[alias]
+	s = status -s
+	lg = log --oneline --decorate --all --graph
+	one = log --oneline
+[push]
+	default = simple
