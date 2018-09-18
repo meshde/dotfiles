@@ -19,6 +19,7 @@ alias hell='erudite;cd tests/;python hell2.py'
 alias algo='cd /Users/meshde/Mehmood/AlgoDS/;source bin/activate;cd Python'
 alias gists='cd /Users/meshde/Mehmood/Gists'
 alias pro='open /Users/meshde/Mehmood/Profile'
+alias safari='cd ~/Mehmood/safari-ext-demo'
 
 alias loadbash='source ~/.bash_profile'
 alias editbash='vim ~/.bash_profile'
@@ -29,6 +30,7 @@ alias plist='pip list --format=columns'
 alias check='git remote update'
 alias vimtree='vim -c "NERDTree"'
 alias pyignore='printf "bin/\ninclude/\nlib/\n.Python\npip-selfcheck.json\n*.pyc\n" > .gitignore'
+alias excludes='vim .git/info/exclude'
 
 github() {
 if [ $# -ne 1 ];then

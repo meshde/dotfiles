@@ -13,5 +13,7 @@
 	s = status -s
 	lg = log --oneline --decorate --all --graph
 	one = log --oneline
+	sum = show --name-only
+	po = push origin
 [push]
 	default = simple
