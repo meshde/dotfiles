@@ -33,10 +33,12 @@ alias pyignore='printf "bin/\ninclude/\nlib/\n.Python\npip-selfcheck.json\n*.pyc
 alias excludes='vim .git/info/exclude'
 
 github() {
-if [ $# -ne 1 ];then
+if [ $# -eq 0 ];then
 open /Applications/Safari.app https://github.com/meshde/;
-else
+elif [ $# -eq 1 ];then
 open /Applications/Safari.app https://github.com/meshde/$1;
+elif [ $# -eq 2 ];then
+open /Applications/Safari.app https://github.com/$1/$2;
 fi
 }
 
