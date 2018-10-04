@@ -2,7 +2,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 PATH=$PATH:/opt/metasploit-framework/bin
 export PATH=$PATH:/opt/metasploit-framework/bin
-export PATH=$PATH:/Users/meshde/Mehmood
+export PATH=$PATH:~/Mehmood
 export PATH=$PATH:/usr/local/sbin
 
 alias python35='/usr/local/bin/python3.5'
@@ -14,11 +14,11 @@ alias virtenv27='virtualenv'
 alias virtenv35='virtualenv -p /usr/local/bin/python3.5'
 alias virtenv36='virtualenv -p /usr/local/bin/python3.6'
 
-alias erudite='cd /Users/meshde/Mehmood/EruditeX/;source bin/activate'
+alias erudite='cd ~/Mehmood/EruditeX/;source bin/activate'
 alias hell='erudite;cd tests/;python hell2.py'
-alias algo='cd /Users/meshde/Mehmood/AlgoDS/;source bin/activate;cd Python'
-alias gists='cd /Users/meshde/Mehmood/Gists'
-alias pro='open /Users/meshde/Mehmood/Profile'
+alias algo='cd ~/Mehmood/AlgoDS/;source bin/activate;cd Python'
+alias gists='cd ~/Mehmood/Gists'
+alias pro='open ~/Mehmood/Profile'
 alias safari='cd ~/Mehmood/safari-ext-demo'
 
 alias loadbash='source ~/.bash_profile'
@@ -62,7 +62,7 @@ os() {
 }
 
 sem8() {
-	x='/Users/meshde/Desktop/KJSCE/SEM VIII/'
+	x='~/Desktop/KJSCE/SEM VIII/'
 	if [ $# -ne 1 ]
 	then
 		open "$x";
