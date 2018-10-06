@@ -131,4 +131,3 @@ export PATH
 
 
 source ~/.bash_secret
-cd ~/Mehmood/
