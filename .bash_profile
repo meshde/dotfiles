@@ -20,6 +20,7 @@ alias algo='cd /Users/meshde/Mehmood/AlgoDS/;source bin/activate;cd Python'
 alias gists='cd /Users/meshde/Mehmood/Gists'
 alias pro='open /Users/meshde/Mehmood/Profile'
 alias safari='cd ~/Mehmood/safari-ext-demo'
+alias tc='cd ~/Mehmood/TopCoder'
 
 alias loadbash='source ~/.bash_profile'
 alias editbash='vim ~/.bash_profile'
