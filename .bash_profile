@@ -4,6 +4,7 @@ PATH=$PATH:/opt/metasploit-framework/bin
 export PATH=$PATH:/opt/metasploit-framework/bin
 export PATH=$PATH:~/Mehmood
 export PATH=$PATH:/usr/local/sbin
+export mn=media-net
 
 alias python35='/usr/local/bin/python3.5'
 alias python36='/usr/local/bin/python3.6'
