@@ -16,5 +16,6 @@
 	sum = show --name-only
 	po = push origin
 	added = diff --cached
+	amend = commit --amend
 [push]
 	default = simple
