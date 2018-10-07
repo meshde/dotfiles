@@ -25,6 +25,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plugin 'w0rp/ale'
 Plugin 'jxnblk/vim-mdx-js'
+Plugin 'tpope/vim-sleuth'
 
 
 call vundle#end()
