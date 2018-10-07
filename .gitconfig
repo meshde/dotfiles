@@ -15,5 +15,6 @@
 	one = log --oneline
 	sum = show --name-only
 	po = push origin
+	added = diff --cached
 [push]
 	default = simple
