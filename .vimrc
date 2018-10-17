@@ -26,6 +26,7 @@ Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plugin 'w0rp/ale'
 Plugin 'jxnblk/vim-mdx-js'
 Plugin 'tpope/vim-sleuth'
+Plugin 'dag/vim-fish'
 
 
 call vundle#end()
