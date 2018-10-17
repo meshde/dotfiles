@@ -26,6 +26,8 @@ alias tc='cd ~/Mehmood/TopCoder'
 alias loadbash='source ~/.bash_profile'
 alias editbash='vim ~/.bash_profile'
 
+alias search='grep -inr'
+
 alias openhere='open -a /Applications/Utilities/Terminal.app .'
 alias gaana='open /Applications/Safari.app https://gaana.com'
 alias plist='pip list --format=columns'
