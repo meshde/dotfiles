@@ -27,6 +27,7 @@ Plugin 'w0rp/ale'
 Plugin 'jxnblk/vim-mdx-js'
 Plugin 'tpope/vim-sleuth'
 Plugin 'dag/vim-fish'
+Plugin 'OrangeT/vim-csharp'
 
 
 call vundle#end()
