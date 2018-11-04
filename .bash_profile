@@ -140,3 +140,4 @@ export PATH
 
 
 source ~/.bash_secret
+source ~/.bash_completions
