@@ -130,7 +130,12 @@ prettify() {
 }
 
 goto() {
-  cd ~/Mehmood/$1
+  if [ $# -ne 1 ]
+  then
+    cd ~/Mehmood
+  else
+    cd ~/Mehmood/$1
+  fi
 }
 
 # Setting PATH for Python 3.5
