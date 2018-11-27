@@ -95,6 +95,7 @@ set nu
 nmap <C-k><C-b> :NERDTreeToggle<CR>
 nmap <C-o> o<Esc>
 nmap <C-s> :w<CR>
+inoremap { {<CR>}<Esc>ko
 
 set laststatus=2 " Always display powerline
 set completeopt-=preview
