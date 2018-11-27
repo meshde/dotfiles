@@ -103,8 +103,8 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
 
 let g:ale_fixers = {}
-let g:ale_fixers['javascript'] = ['prettier']
+let g:ale_fixers['javascript'] = ['eslint']
 let g:ale_fix_on_save = 1
-let g:ale_javascript_prettier_options = '--single-quote --tab-width 4'
+" let g:ale_javascript_prettier_options = '--single-quote --tab-width 4'
 
 nmap <C-i> vit<Esc>
