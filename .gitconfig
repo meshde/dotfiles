@@ -11,6 +11,7 @@
 	autocrlf = input
 [alias]
 	s = status -s
+	ss = status -s
 	lg = log --oneline --decorate --all --graph
 	one = log --oneline
 	sum = show --name-only
