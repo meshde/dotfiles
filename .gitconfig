@@ -18,5 +18,6 @@
 	po = push origin
 	added = diff --cached
 	amend = commit --amend
+	back = reset --hard
 [push]
 	default = simple
