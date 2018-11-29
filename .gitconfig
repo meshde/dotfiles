@@ -19,5 +19,6 @@
 	added = diff --cached
 	amend = commit --amend
 	back = reset --hard
+	c = commit
 [push]
 	default = simple
