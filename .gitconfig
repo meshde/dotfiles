@@ -20,5 +20,6 @@
 	amend = commit --amend
 	back = reset --hard
 	c = commit
+	last = log -1
 [push]
 	default = simple
