@@ -36,6 +36,7 @@ filetype plugin indent on
 
 set splitbelow
 set splitright
+set cursorline
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
