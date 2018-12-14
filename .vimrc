@@ -109,6 +109,10 @@ inoremap [ []<Left>
 inoremap [<space> [  ]<Left><Left>
 inoremap [<CR> [<CR>]<Esc>ko
 
+inoremap ' ''<Left>
+inoremap " ""<Left>
+inoremap ` ``<Left>
+
 set laststatus=2 " Always display powerline
 set completeopt-=preview
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
