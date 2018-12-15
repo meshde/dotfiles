@@ -123,6 +123,7 @@ inoremap ' ''<Left>
 inoremap " ""<Left>
 inoremap ` ``<Left>
 
+set backspace=2 " Fix backspace issues
 set laststatus=2 " Always display powerline
 set completeopt-=preview
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
