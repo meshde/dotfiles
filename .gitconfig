@@ -11,11 +11,15 @@
 	autocrlf = input
 [alias]
 	s = status -s
+	ss = status -s
 	lg = log --oneline --decorate --all --graph
 	one = log --oneline
 	sum = show --name-only
 	po = push origin
 	added = diff --cached
 	amend = commit --amend
+	back = reset --hard
+	c = commit
+	last = log -1
 [push]
 	default = simple

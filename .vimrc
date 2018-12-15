@@ -36,6 +36,7 @@ filetype plugin indent on
 
 set splitbelow
 set splitright
+set cursorline
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -97,6 +98,18 @@ nmap <C-o> o<Esc>
 nmap <C-s> :w<CR>
 nmap <C-w>* <C-w>s*
 
+inoremap { {}<Left>
+inoremap {<space> {  }<Left><Left>
+inoremap {<CR> {<CR>}<Esc>ko
+
+inoremap ( ()<Left>
+inoremap (<space> (  )<Left><Left>
+inoremap (<CR> (<CR>)<Esc>ko
+
+inoremap [ []<Left>
+inoremap [<space> [  ]<Left><Left>
+inoremap [<CR> [<CR>]<Esc>ko
+
 set laststatus=2 " Always display powerline
 set completeopt-=preview
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
@@ -104,8 +117,8 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
 
 let g:ale_fixers = {}
-let g:ale_fixers['javascript'] = ['prettier']
+let g:ale_fixers['javascript'] = ['eslint']
 let g:ale_fix_on_save = 1
-let g:ale_javascript_prettier_options = '--single-quote --tab-width 4'
+" let g:ale_javascript_prettier_options = '--single-quote --tab-width 4'
 
 nmap <C-i> vit<Esc>

@@ -28,6 +28,7 @@ alias loadbash='source ~/.bash_profile'
 alias editbash='vim ~/.bash_profile'
 
 alias editvim='vim ~/.vimrc'
+alias editgit='vim ~/.gitconfig'
 
 alias search='grep -inr'
 
