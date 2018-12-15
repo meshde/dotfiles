@@ -105,14 +105,17 @@ nmap <C-s> :w<CR>
 nmap <C-w>* <C-w>s*
 
 inoremap { {}<Left>
+inoremap {} {}<Left>
 inoremap {<space> {  }<Left><Left>
 inoremap {<CR> {<CR>}<Esc>ko
 
 inoremap ( ()<Left>
+inoremap () ()<Left>
 inoremap (<space> (  )<Left><Left>
 inoremap (<CR> (<CR>)<Esc>ko
 
 inoremap [ []<Left>
+inoremap [] []<Left>
 inoremap [<space> [  ]<Left><Left>
 inoremap [<CR> [<CR>]<Esc>ko
 
