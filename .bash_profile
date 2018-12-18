@@ -21,7 +21,6 @@ alias algo='cd ~/Mehmood/AlgoDS/;source bin/activate;cd Python'
 alias gists='cd ~/Mehmood/Gists'
 alias pro='open ~/Mehmood/Profile'
 alias safari='cd ~/Mehmood/safari-ext-demo'
-alias tc='cd ~/Mehmood/TopCoder'
 alias ls='ls -1'
 
 alias loadbash='source ~/.bash_profile'
@@ -137,6 +136,15 @@ goto() {
     cd ~/Mehmood
   else
     cd ~/Mehmood/$1
+  fi
+}
+
+tc() {
+  if [ $# -ne 1 ]
+  then
+    cd ~/Mehmood/TopCoder
+  else
+    cd ~/Mehmood/TopCoder/$1
   fi
 }
 

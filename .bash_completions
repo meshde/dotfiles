@@ -7,4 +7,14 @@ _goto(){
   return 0
 }
 
+_tc(){
+  local cur
+  cur="${COMP_WORDS[COMP_CWORD]}"
+  directories=( $(compgen -d -- ~/Mehmood/TopCoder/) )
+  based=$(for i in ${directories[@]}; do basename "@$i"; done)
+  COMPREPLY=( $(compgen -W "${based}" -- $cur) )
+  return 0
+}
+
 complete -F _goto goto
+complete -F _tc tc
