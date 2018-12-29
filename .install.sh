@@ -26,3 +26,4 @@ echo "Installing YouCompleteMe daemon..."
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --all
 echo "YCMD installed."
+brew install the_silver_searcher
