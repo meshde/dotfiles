@@ -29,6 +29,7 @@ Plugin 'tpope/vim-sleuth'
 Plugin 'dag/vim-fish'
 Plugin 'OrangeT/vim-csharp'
 Plugin 'gryf/pylint-vim'
+Plugin 'tpope/vim-abolish' " Case preserving replace
 
 
 call vundle#end()
