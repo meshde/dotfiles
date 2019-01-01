@@ -21,5 +21,6 @@
 	back = reset --hard
 	c = commit
 	last = log -1
+	p = add -p
 [push]
 	default = simple
