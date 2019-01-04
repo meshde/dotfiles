@@ -22,5 +22,6 @@
 	c = commit
 	last = log -1
 	p = add -p
+	d = diff
 [push]
 	default = simple
