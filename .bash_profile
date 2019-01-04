@@ -22,6 +22,7 @@ alias gists='cd ~/Mehmood/Gists'
 alias pro='open ~/Mehmood/Profile'
 alias safari='cd ~/Mehmood/safari-ext-demo'
 alias ls='ls -1'
+alias g='git'
 
 alias loadbash='source ~/.bash_profile'
 alias editbash='vim ~/.bash_profile'
