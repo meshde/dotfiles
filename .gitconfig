@@ -23,5 +23,6 @@
 	last = log -1
 	p = add -p
 	d = diff
+	co = checkout
 [push]
 	default = simple
