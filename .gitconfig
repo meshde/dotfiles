@@ -12,7 +12,7 @@
 [alias]
 	s = status -s
 	ss = status -s
-	lg = log --oneline --decorate --all --graph
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 	one = log --oneline
 	sum = show --name-only
 	po = push origin
