@@ -25,5 +25,6 @@
 	d = diff
 	co = checkout
 	m = commit -m
+	a = add
 [push]
 	default = simple
