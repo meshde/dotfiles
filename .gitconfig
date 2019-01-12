@@ -22,7 +22,7 @@
 	c = commit
 	last = log -1
 	p = add -p
-	d = diff
+	d = diff --color-words
 	co = checkout
 	m = commit -m
 	a = add
