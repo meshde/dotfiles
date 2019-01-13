@@ -16,6 +16,7 @@
 	one = log --oneline
 	sum = show --name-only
 	po = push origin
+	pu = pull origin
 	added = diff --cached
 	amend = commit --amend
 	back = reset --hard
