@@ -128,6 +128,12 @@ inoremap ` ``<Left>
 vnoremap <C-k>( c()<Esc>P
 nnoremap <C-k>( ce()<Esc>P
 
+vnoremap <C-k>[ c[]<Esc>P
+nnoremap <C-k>[ ce[]<Esc>P
+
+vnoremap <C-k>{ c{}<Esc>P
+nnoremap <C-k>{ ce{}<Esc>P
+
 set backspace=2 " Fix backspace issues
 set laststatus=2 " Always display powerline
 set completeopt-=preview
