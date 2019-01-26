@@ -27,5 +27,6 @@
 	co = checkout
 	m = commit -m
 	a = add
+	cam = commit -am
 [push]
 	default = simple
