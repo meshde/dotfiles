@@ -14,7 +14,7 @@ alias firstec2='cd ~/SSH/;ssh -i "FirstEC2.pem" ec2-user@ec2-18-219-153-115.us-e
 
 alias virtenv27='virtualenv'
 alias virtenv35='virtualenv -p /usr/local/bin/python3.5'
-alias virtenv36='virtualenv -p /usr/local/bin/python3.6'
+alias virtenv36='virtualenv -p /usr/local/Cellar/python/3.6.1/bin/python3.6'
 
 alias erudite='cd ~/Mehmood/EruditeX/;source bin/activate'
 alias hell='erudite;cd tests/;python hell2.py'
