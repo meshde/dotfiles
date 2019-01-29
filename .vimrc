@@ -84,7 +84,7 @@ set expandtab
 "   execfile(activate_this, dict(__file__=activate_this))
 " EOF
 
-let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+let NERDTreeIgnore=['\.pyc$', '\~$', '\.min.js$'] "ignore files in NERDTree
 
 let python_highlight_all=1
 syntax on
