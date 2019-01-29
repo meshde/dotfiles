@@ -48,9 +48,9 @@ let g:SimplyFold_docstring_preview=1
 
 
 au BufNewFile,BufRead *.py
-    \ set tabstop=2 |
-    \ set softtabstop=2 |
-    \ set shiftwidth=2 |
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
     \ set textwidth=79 |
     \ set expandtab |
     \ set autoindent |
@@ -134,6 +134,15 @@ nnoremap <C-k>[ ce[]<Esc>P
 vnoremap <C-k>{ c{}<Esc>P
 nnoremap <C-k>{ ce{}<Esc>P
 
+vnoremap <C-k>" c""<Esc>P
+nnoremap <C-k>" ce""<Esc>P
+
+vnoremap <C-k>' c''<Esc>P
+nnoremap <C-k>' ce''<Esc>P
+
+vnoremap <C-k>` c``<Esc>P
+nnoremap <C-k>` ce``<Esc>P
+
 set backspace=2 " Fix backspace issues
 set laststatus=2 " Always display powerline
 set completeopt-=preview
@@ -145,6 +154,10 @@ let g:ale_fixers = {}
 let g:ale_fixers['javascript'] = ['eslint']
 let g:ale_fix_on_save = 1
 " let g:ale_javascript_prettier_options = '--single-quote --tab-width 4'
+
+let g:ale_linters = {}
+let g:ale_linters['python'] = ['pylint']
+let g:ale_lint_on_save = 1
 
 nmap <C-i> vit<Esc>
 
