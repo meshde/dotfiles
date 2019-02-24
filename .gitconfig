@@ -30,3 +30,5 @@
 	cam = commit -am
 [push]
 	default = simple
+[merge]
+	tool = vimdiff
