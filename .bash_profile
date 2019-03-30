@@ -47,6 +47,7 @@ alias check='git remote update'
 alias vimtree='vim -c "NERDTree"'
 alias pyignore='printf "bin/\ninclude/\nlib/\n.Python\npip-selfcheck.json\n*.pyc\n" > .gitignore'
 alias excludes='vim .git/info/exclude'
+alias tnew='tmux new -s'
 
 github() {
 if [ $# -eq 0 ];then
