@@ -23,7 +23,13 @@ alias gists='cd ~/Mehmood/Gists'
 alias pro='open ~/Mehmood/Profile'
 alias safari='cd ~/Mehmood/safari-ext-demo'
 alias ls='ls -1'
+
 alias g='git'
+alias gs='g s'
+alias gm='g m'
+alias ga='g a'
+alias gd='g d'
+alias gp='g p'
 alias gh='open /Applications/Safari.app `git remote get-url origin`'
 
 alias loadbash='source ~/.bash_profile'
