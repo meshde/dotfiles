@@ -30,6 +30,8 @@ Plugin 'dag/vim-fish'
 Plugin 'OrangeT/vim-csharp'
 Plugin 'gryf/pylint-vim'
 Plugin 'tpope/vim-abolish' " Case preserving replace
+Plugin 'StanAngeloff/php.vim'
+Plugin 'stephpy/vim-php-cs-fixer'
 
 
 call vundle#end()
