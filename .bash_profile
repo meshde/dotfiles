@@ -27,6 +27,8 @@ alias ls='ls -1'
 alias g='git'
 alias gh='open /Applications/Safari.app `git remote get-url origin`'
 
+alias swagger='docker run -p 8081:8080 swaggerapi/swagger-editor'
+
 alias loadbash='source ~/.bash_profile'
 alias editbash='vim ~/.bash_profile'
 
