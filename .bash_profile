@@ -24,7 +24,13 @@ alias gists='cd ~/Mehmood/Gists'
 alias pro='open ~/Mehmood/Profile'
 alias safari='cd ~/Mehmood/safari-ext-demo'
 alias ls='ls -1'
+
 alias g='git'
+alias gs='g s'
+alias gm='g m'
+alias ga='g a'
+alias gd='g d'
+alias gp='g p'
 alias gh='open /Applications/Safari.app `git remote get-url origin`'
 
 alias swagger='docker run -p 8081:8080 swaggerapi/swagger-editor'
@@ -44,6 +50,7 @@ alias check='git remote update'
 alias vimtree='vim -c "NERDTree"'
 alias pyignore='printf "bin/\ninclude/\nlib/\n.Python\npip-selfcheck.json\n*.pyc\n" > .gitignore'
 alias excludes='vim .git/info/exclude'
+alias tnew='tmux new -s'
 
 github() {
 if [ $# -eq 0 ];then
