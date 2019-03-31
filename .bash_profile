@@ -4,6 +4,7 @@ PATH=$PATH:/opt/metasploit-framework/bin
 export PATH=$PATH:/opt/metasploit-framework/bin
 export PATH=$PATH:~/Mehmood
 export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:~/Mehmood/depot_tools
 export mn=media-net
 export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] \w\[\033[0;32m\] ($(git branch 2>/dev/null | grep '^*' | colrm 1 2))\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
 
@@ -155,7 +156,6 @@ tc() {
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
-
 
 source ~/.bash_secret
 source ~/.bash_completions
