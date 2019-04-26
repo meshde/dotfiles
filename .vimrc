@@ -108,6 +108,7 @@ nmap <C-k><C-n> :NERDTreeFind<CR>
 nmap <C-o> o<Esc>
 nmap <C-s> :w<CR>
 nmap <C-w>* <C-w>s*
+nnoremap zz :update<cr>
 
 inoremap { {}<Left>
 inoremap {} {}
