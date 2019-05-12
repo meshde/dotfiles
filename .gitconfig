@@ -28,6 +28,7 @@
 	m = commit -m
 	a = add
 	cam = commit -am
+	add-new = !"git add $(git ls-files -o --exclude-standard)"
 [push]
 	default = simple
 [merge]
