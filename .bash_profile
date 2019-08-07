@@ -8,6 +8,7 @@ export PATH=$PATH:~/Mehmood/depot_tools
 export mn=media-net
 export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] \w\[\033[0;32m\] ($(git branch 2>/dev/null | grep '^*' | colrm 1 2))\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
 
+alias dc='docker-compose'
 alias python35='/usr/local/bin/python3.5'
 alias python36='/usr/local/bin/python3.6'
 
