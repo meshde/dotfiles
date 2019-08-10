@@ -27,3 +27,4 @@ cd ~/.vim/bundle/YouCompleteMe
 ./install.py --all
 echo "YCMD installed."
 brew install the_silver_searcher
+brew install httpie
