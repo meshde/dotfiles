@@ -105,8 +105,8 @@ set nu
 
 nmap <C-k><C-b> :NERDTreeToggle<CR>
 nmap <C-k><C-n> :NERDTreeFind<CR>
-nmap <C-f><C-n> :cn<CR>
-nmap <C-f><C-p> :cp<CR>
+nmap <C-g><C-n> :cn<CR>
+nmap <C-g><C-p> :cp<CR>
 nmap <C-o> o<Esc>
 nmap <C-s> :w<CR>
 nmap <C-w>* <C-w>s*
