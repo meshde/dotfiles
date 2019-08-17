@@ -185,3 +185,8 @@ nnoremap K :grep! -F "<C-R><C-W>"<CR>:cw<CR>
 " Code Folding
 set foldmethod=syntax
 set foldlevelstart=99
+
+" Horizontal Scrolling
+set nowrap
+nmap <C-M> zl
+nmap <C-n> zh
