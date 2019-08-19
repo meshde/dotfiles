@@ -7,7 +7,7 @@
 	email = meshde.md@gmail.com
 	name = meshde
 [core]
-	excludeFile = .gitignore
+	excludesFile = ~/.gitignore_global
 	autocrlf = input
 [alias]
 	s = status -s
