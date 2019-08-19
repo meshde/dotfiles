@@ -170,5 +170,8 @@ tc() {
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
 
+set editing-mode vi
+bind -m vi-insert "\C-l":clear-screen
+
 source ~/.bash_secret
 source ~/.bash_completions
