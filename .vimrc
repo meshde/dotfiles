@@ -33,6 +33,7 @@ Plugin 'tpope/vim-abolish' " Case preserving replace
 Plugin 'StanAngeloff/php.vim'
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'keith/swift.vim'
+Plugin 'vim-vdebug/vdebug'
 
 
 call vundle#end()
@@ -164,6 +165,13 @@ let g:ale_fix_on_save = 1
 let g:ale_linters = {}
 let g:ale_linters['python'] = ['pylint']
 let g:ale_lint_on_save = 1
+
+
+if !exists('g:vdebug_options')
+    let g:vdebug_options = {}
+endif
+
+let g:vdebug_options.path_maps = { "/var/www/html": "/Users/mehmood.d/Mehmood/cms" }
 
 nmap <C-i> vit<Esc>
 
