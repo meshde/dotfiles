@@ -28,3 +28,4 @@ cd ~/.vim/bundle/YouCompleteMe
 echo "YCMD installed."
 brew install the_silver_searcher
 brew install httpie
+brew install jq
