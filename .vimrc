@@ -37,6 +37,7 @@ Plugin 'StanAngeloff/php.vim'
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'keith/swift.vim'
 Plugin 'vim-vdebug/vdebug'
+Plugin 'AndrewRadev/linediff.vim'
 
 
 call vundle#end()
