@@ -29,3 +29,7 @@ echo "YCMD installed."
 brew install the_silver_searcher
 brew install httpie
 brew install jq
+brew install ctags
+brew install tmux
+brew install watch
+brew install parallel
