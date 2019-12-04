@@ -200,8 +200,8 @@ set foldlevelstart=99
 
 " Horizontal Scrolling
 " set nowrap
-nmap <C-M> zl
-nmap <C-n> zh
+" nmap <C-M> zl
+" nmap <C-n> zh
 
 " Enable mouse support
 set mouse=a
