@@ -38,6 +38,7 @@ alias gh='open /Applications/Safari.app `git remote get-url origin`'
 alias swaggered='docker run -p 8081:8080 swaggerapi/swagger-editor'
 alias swagger='docker run -p 8082:8080 swaggerapi/swagger-ui'
 alias dockerkill='docker kill $(docker ps -q)'
+alias nodebug='node --inspect-brk'
 
 alias loadbash='source ~/.bash_profile'
 alias editbash='vim ~/.bash_profile'
