@@ -56,6 +56,7 @@ alias vimtree='vim -c "NERDTree"'
 alias pyignore='printf "bin/\ninclude/\nlib/\n.Python\npip-selfcheck.json\n*.pyc\n" > .gitignore'
 alias excludes='vim .git/info/exclude'
 alias tnew='tmux new -s'
+alias nodebug='node --inspect-brk'
 
 github() {
 if [ $# -eq 0 ];then
