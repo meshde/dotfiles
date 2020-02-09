@@ -33,6 +33,7 @@ alias ga='g a'
 alias gd='g d'
 alias gp='g p'
 alias gu='g u'
+alias gl='g l'
 alias gh='open /Applications/Safari.app `git remote get-url origin`'
 
 alias swaggered='docker run -dp 8081:8080 swaggerapi/swagger-editor'

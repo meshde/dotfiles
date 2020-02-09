@@ -34,6 +34,7 @@
 	hd = !"git push -f staging $(git curr):master"
 	pou = !"git push origin -u `git curr`"
 	scp = am --show-current-patch
+	l = !"git log --pretty='%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s'"
 [push]
 	default = simple
 [merge]
