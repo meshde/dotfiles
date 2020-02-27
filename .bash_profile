@@ -117,10 +117,10 @@ work() {
 timer 22
 say Take a break
 }
-break() {
-timer 8
-say Back to work
-}
+# break() {
+# timer 8
+# say Back to work
+# }
 work_two_hours() {
 for i in {1..4}
 do
@@ -182,3 +182,9 @@ bind -m vi-insert "\C-l":clear-screen
 
 source ~/.bash_secret
 source ~/.bash_completions
+
+load_nvm() {
+  export NVM_DIR="$HOME/.nvm"
+    [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+    [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+}
