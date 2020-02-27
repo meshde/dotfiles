@@ -207,6 +207,10 @@ set foldlevelstart=99
 " Enable mouse support
 set mouse=a
 
+" Imporve text search experience
+set incsearch
+set hlsearch
+
 " Python Debugging Macros
 au FileType python map <silent> <leader>b oimport pdb; pdb.set_trace()<esc>
 au FileType python map <silent> <leader>B Oimport pdb; pdb.set_trace()<esc>
