@@ -172,6 +172,10 @@ agr() {
   ag -0 -l "$1" | xargs -0 perl -pi.bak -e "s/$1/$2/g";
 }
 
+set_aws_profile() {
+  export AWS_PROFILE=$1
+}
+
 # Setting PATH for Python 3.5
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
