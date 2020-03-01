@@ -176,6 +176,16 @@ set_aws_profile() {
   export AWS_PROFILE=$1
 }
 
+set_tc_token() {
+  export TC_TOKEN=$(printf "{
+    \"grant_type\": \"client_credentials\",
+    \"client_id\": \"$AUTH0_CLIENT_ID\",
+    \"client_secret\": \"$AUTH0_CLIENT_SECRET\",
+    \"audience\": \"$AUTH0_AUDIENCE\",
+    \"auth0_url\": \"$AUTH0_URL\"
+    }"| http --follow POST $AUTH0_URL Content-Type:'application/json' | jq -r '.access_token')
+}
+
 # Setting PATH for Python 3.5
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
