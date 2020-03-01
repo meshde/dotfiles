@@ -16,6 +16,7 @@
 	one = log --oneline
 	sum = show --name-only
 	po = push origin
+	pm = push meshde
 	pu = pull origin
 	added = diff --cached
 	amend = commit --amend
@@ -33,6 +34,7 @@
 	curr = rev-parse --abbrev-ref HEAD
 	hd = !"git push -f staging $(git curr):master"
 	pou = !"git push origin -u `git curr`"
+	pmu = !"git push meshde -u `git curr`"
 	scp = am --show-current-patch
 	l = !"git log --pretty='%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s'"
 [push]
