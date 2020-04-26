@@ -34,3 +34,4 @@ brew install tmux
 brew install watch
 brew install parallel
 brew install urlview
+brew install fpp
