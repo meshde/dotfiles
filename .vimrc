@@ -220,3 +220,6 @@ let &shell='/bin/bash --login'
 
 " Command to run a bash command and display output in empty buffer
 command! -nargs=* -complete=shellcmd R new | setlocal buftype=nofile bufhidden=hide noswapfile | r !<args>
+
+" Shift to the next round tab stop.
+set shiftround
