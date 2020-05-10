@@ -73,6 +73,10 @@ au BufNewFile,BufRead *.js,*.html,*.css,*.ts
     \ set expandtab |
     \ set autoindent
 
+augroup SyntaxSettings
+    autocmd!
+    autocmd BufNewFile,BufRead *.tsx set filetype=typescript
+augroup END
 
 
 set encoding=utf-8
