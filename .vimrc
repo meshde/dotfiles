@@ -167,16 +167,16 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
 
 let g:ale_fixers = {}
-let g:ale_fixers['javascript'] = ['prettier']
-let g:ale_fixers['javascript.jsx'] = ['prettier']
-let g:ale_fixers['typescript'] = ['prettier']
-let g:ale_fixers['typescript.jsx'] = ['prettier']
+let g:ale_fixers['javascript'] = ['eslint']
+let g:ale_fixers['javascript.jsx'] = ['eslint']
+let g:ale_fixers['typescript'] = ['eslint']
+let g:ale_fixers['typescript.jsx'] = ['eslint']
 let g:ale_fix_on_save = 1
 " let g:ale_javascript_prettier_options = '--single-quote --tab-width 4'
 
 let g:ale_linters = {}
 let g:ale_linters['python'] = ['pylint']
-let g:ale_linters['javascript'] = ['prettier']
+let g:ale_linters['javascript'] = ['eslint']
 let g:ale_linters['javascript.jsx'] = ['eslint']
 let g:ale_lint_on_save = 1
 
