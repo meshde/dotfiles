@@ -196,6 +196,7 @@ bind -m vi-insert "\C-l":clear-screen
 
 source ~/.bash_secret
 source ~/.bash_completions
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 
 load_nvm() {
   export NVM_DIR="$HOME/.nvm"
