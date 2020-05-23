@@ -39,6 +39,7 @@ Plugin 'keith/swift.vim'
 Plugin 'vim-vdebug/vdebug'
 Plugin 'AndrewRadev/linediff.vim'
 Plugin 'jparise/vim-graphql'
+Plugin 'christoomey/vim-conflicted'
 
 
 call vundle#end()
