@@ -40,6 +40,7 @@ Plugin 'vim-vdebug/vdebug'
 Plugin 'AndrewRadev/linediff.vim'
 Plugin 'jparise/vim-graphql'
 Plugin 'christoomey/vim-conflicted'
+Plugin 'djoshea/vim-autoread'
 
 
 call vundle#end()
