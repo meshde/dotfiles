@@ -213,3 +213,9 @@ load_nvm() {
 notify() {
   time $* && say done
 }
+
+function img-data() {
+  TYPE=$(file --mime-type -b "$1")
+  ENC=$(base64 "$1")
+  echo "data:$TYPE;base64,$ENC"
+}
