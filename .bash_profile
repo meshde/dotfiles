@@ -26,7 +26,10 @@ alias pro='open ~/Mehmood/Profile'
 alias safari='cd ~/Mehmood/safari-ext-demo'
 alias ls='ls -1'
 
+test -f ~/.git-completion.bash && . $_
+
 alias g='git'
+__git_complete g _git
 alias gs='g s'
 alias gm='g m'
 alias ga='g a'
@@ -34,6 +37,8 @@ alias gd='g d'
 alias gp='g p'
 alias gu='g u'
 alias gl='g l'
+alias go='g co'
+__git_complete go _git_checkout
 alias gh='open /Applications/Safari.app `git remote get-url origin`'
 
 alias swaggered='docker run -dp 8081:8080 swaggerapi/swagger-editor'
