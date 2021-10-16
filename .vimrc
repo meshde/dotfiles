@@ -180,6 +180,8 @@ let g:ale_linters = {}
 let g:ale_linters['python'] = ['pylint']
 let g:ale_linters['javascript'] = ['eslint']
 let g:ale_linters['javascript.jsx'] = ['eslint']
+let g:ale_linters['typescript'] = ['eslint']
+let g:ale_linters['typescript.jsx'] = ['eslint']
 let g:ale_lint_on_save = 1
 
 let g:ale_lint_on_text_changed = 'never'
