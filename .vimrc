@@ -22,7 +22,7 @@ Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'gabrielelana/vim-markdown'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'elzr/vim-json'
-Plugin 'valloric/YouCompleteMe'
+" Plugin 'valloric/YouCompleteMe'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
@@ -36,11 +36,13 @@ Plugin 'tpope/vim-abolish' " Case preserving replace
 Plugin 'StanAngeloff/php.vim'
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'keith/swift.vim'
-Plugin 'vim-vdebug/vdebug'
+" Plugin 'vim-vdebug/vdebug'
 Plugin 'AndrewRadev/linediff.vim'
 Plugin 'jparise/vim-graphql'
 Plugin 'christoomey/vim-conflicted'
 Plugin 'djoshea/vim-autoread'
+Plugin 'junegunn/limelight.vim'
+Plugin 'junegunn/goyo.vim'
 
 
 call vundle#end()
