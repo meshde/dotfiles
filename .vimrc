@@ -43,6 +43,7 @@ Plugin 'christoomey/vim-conflicted'
 Plugin 'djoshea/vim-autoread'
 Plugin 'junegunn/limelight.vim'
 Plugin 'junegunn/goyo.vim'
+Plugin 'rhysd/conflict-marker.vim'
 
 
 call vundle#end()
