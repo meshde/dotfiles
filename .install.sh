@@ -14,6 +14,8 @@ echo "Installing cmake..."
 brew install cmake;
 echo "cmake installed."
 
+mkdir .tmux && cd .tmux && git init && git remote add origin https://github.com/gpakosz/.tmux.git && git fetch && git reset --hard origin/master
+
 echo "Installing Vundle..."
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 echo "Vundle installed."
