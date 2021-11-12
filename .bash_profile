@@ -2,17 +2,22 @@ export EDITOR=vi
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 PATH=$PATH:/opt/metasploit-framework/bin
+export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:/opt/metasploit-framework/bin
 export PATH=$PATH:~/Mehmood
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:~/Mehmood/depot_tools
 export mn=media-net
 export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] \w\[\033[0;32m\] ($(git branch 2>/dev/null | grep '^*' | colrm 1 2))\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH=`which chromium`
 set -o vi
 
 alias dc='docker-compose'
 alias python35='/usr/local/bin/python3.5'
 alias python36='/usr/local/bin/python3.6'
+
+alias ctags='/opt/homebrew/bin/ctags'
 
 alias firstec2='cd ~/SSH/;ssh -i "FirstEC2.pem" ec2-user@ec2-18-219-153-115.us-east-2.compute.amazonaws.com'
 
@@ -31,7 +36,7 @@ alias ls='ls -1'
 test -f ~/.git-completion.bash && . $_
 
 alias g='git'
-__git_complete g _git
+__git_complete g git
 alias gs='g s'
 alias gm='g m'
 alias ga='g a'

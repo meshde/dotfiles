@@ -37,3 +37,5 @@ brew install watch
 brew install parallel
 brew install urlview
 brew install fpp
+
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > .git-completion.bash
