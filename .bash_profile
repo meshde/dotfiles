@@ -19,6 +19,8 @@ alias python36='/usr/local/bin/python3.6'
 
 alias ctags='/opt/homebrew/bin/ctags'
 
+alias httpb='http --print=b'
+
 alias firstec2='cd ~/SSH/;ssh -i "FirstEC2.pem" ec2-user@ec2-18-219-153-115.us-east-2.compute.amazonaws.com'
 
 alias virtenv27='virtualenv'
