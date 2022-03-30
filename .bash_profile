@@ -227,3 +227,29 @@ function img-data() {
   ENC=$(base64 "$1")
   echo "data:$TYPE;base64,$ENC"
 }
+
+_print_progress_bar_instance() {
+  _BAR_LEN=40
+  _BARS=$(( $1 * $_BAR_LEN / $2 ))
+  echo -ne "\r"
+  printf '|'
+  [ $_BARS -ne 0 ] && printf "▇%.0s" $(seq 0 $(( $_BARS - 1 )));
+  [ $_BARS -ne $_BAR_LEN ] && printf " %.0s" $(seq $(( $_BARS + 1 )) $_BAR_LEN);
+  printf '|'
+  printf ' %d%%' $(( $1 * 100 / $2 ))
+  printf ' %s/%s' $1 $2
+}
+
+progress() {
+  arr=( `cat $1` )
+  shift
+  COMMAND_TO_RUN="$@";
+  len=${#arr[@]}
+  for index in ${!arr[@]}; do
+    _print_progress_bar_instance $index $len;
+    item=${arr[$index]};
+   eval $COMMAND_TO_RUN;
+  done
+  _print_progress_bar_instance $len $len;
+  echo ""
+}
