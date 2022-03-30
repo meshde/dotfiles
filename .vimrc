@@ -173,6 +173,7 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
 let g:ale_fixers = {}
 let g:ale_fixers['javascript'] = ['eslint']
+let g:ale_fixers['json'] = ['jq']
 let g:ale_fixers['javascript.jsx'] = ['eslint']
 let g:ale_fixers['typescript'] = ['eslint']
 let g:ale_fixers['typescript.jsx'] = ['eslint']
@@ -181,10 +182,11 @@ let g:ale_fix_on_save = 1
 
 let g:ale_linters = {}
 let g:ale_linters['python'] = ['pylint']
+let g:ale_linters['json'] = ['jq']
 let g:ale_linters['javascript'] = ['eslint']
 let g:ale_linters['javascript.jsx'] = ['eslint']
-let g:ale_linters['typescript'] = ['eslint']
-let g:ale_linters['typescript.jsx'] = ['eslint']
+let g:ale_linters['typescript'] = ['eslint', 'tsserver']
+let g:ale_linters['typescript.jsx'] = ['eslint', 'tsserver']
 let g:ale_lint_on_save = 1
 
 let g:ale_lint_on_text_changed = 'never'
@@ -268,3 +270,12 @@ let g:limelight_eop = '\ze\n^\s'
 " Highlighting priority (default: 10)
 "   Set it to -1 not to overrule hlsearch
 let g:limelight_priority = -1
+
+let s:project_root = finddir('.git/..', expand('%:p:h').';')
+let s:local_vimrc = join([s:project_root, '.vimrc'], '/')
+
+let s:global_vimrc = expand('<sfile>:p')
+
+if filereadable(s:local_vimrc) && s:global_vimrc != s:local_vimrc
+    exec "source " . s:local_vimrc
+endif
