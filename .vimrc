@@ -45,6 +45,7 @@ Plugin 'junegunn/limelight.vim'
 Plugin 'junegunn/goyo.vim'
 Plugin 'rhysd/conflict-marker.vim'
 Plugin 'tpope/vim-commentary'
+Plugin 'mhinz/vim-startify'
 
 
 call vundle#end()
