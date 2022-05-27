@@ -46,6 +46,9 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'rhysd/conflict-marker.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'mhinz/vim-startify'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'justinmk/vim-sneak'
+Plugin 'rhysd/git-messenger.vim'
 
 
 call vundle#end()
