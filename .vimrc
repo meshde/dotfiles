@@ -284,3 +284,5 @@ let s:global_vimrc = expand('<sfile>:p')
 if filereadable(s:local_vimrc) && s:global_vimrc != s:local_vimrc
     exec "source " . s:local_vimrc
 endif
+
+let g:startify_change_to_dir = 0
