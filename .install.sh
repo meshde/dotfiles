@@ -15,6 +15,7 @@ brew install cmake;
 echo "cmake installed."
 
 mkdir .tmux && cd .tmux && git init && git remote add origin https://github.com/gpakosz/.tmux.git && git fetch && git reset --hard origin/master
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 echo "Installing Vundle..."
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim

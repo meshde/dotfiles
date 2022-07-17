@@ -292,3 +292,7 @@ set -g mode-keys vi
 
 # move status line to top
 #set -g status-position top
+
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+
+run '~/.tmux/plugins/tpm/tpm'
