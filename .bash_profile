@@ -253,3 +253,13 @@ progress() {
   _print_progress_bar_instance $len $len;
   echo ""
 }
+
+function cd {
+    # actually change the directory with all args passed to the function
+    builtin cd "$@"
+    # if there's a regular file named ".todo.sh"...
+    if [ -f ".todo.sh" ] ; then
+        # source it
+        source .todo.sh
+    fi
+}

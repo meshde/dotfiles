@@ -1,3 +1,4 @@
 tags
 *.sw[op]
 .DS_Store
+.todo.sh
