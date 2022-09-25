@@ -38,5 +38,9 @@ brew install watch
 brew install parallel
 brew install urlview
 brew install fpp
+brew install nvm
+brew install pyenv
+brew install gh
+brew install tree
 
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > .git-completion.bash
