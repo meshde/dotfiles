@@ -37,6 +37,7 @@
 	pmu = !"git push meshde -u `git curr`"
 	scp = am --show-current-patch
 	l = !"git log --pretty='%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s'"
+	cf = !"git status --porcelain | sed s/^...//" # list changed files
 [push]
 	default = simple
 [merge]
