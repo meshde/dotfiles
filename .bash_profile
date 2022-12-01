@@ -48,7 +48,6 @@ alias gu='g u'
 alias gl='g l'
 alias go='g co'
 __git_complete go _git_checkout
-alias gh='open /Applications/Safari.app `git remote get-url origin`'
 
 alias swaggered='docker run -dp 8081:8080 swaggerapi/swagger-editor'
 alias swagger='docker run -p 8082:8080 swaggerapi/swagger-ui'
