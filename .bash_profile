@@ -209,6 +209,7 @@ bind -m vi-insert "\C-l":clear-screen
 
 source ~/.bash_secret
 source ~/.bash_completions
+source ~/kube.sh
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 
 load_nvm() {
