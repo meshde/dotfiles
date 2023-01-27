@@ -183,6 +183,7 @@ let g:ale_fixers['json'] = ['jq']
 let g:ale_fixers['javascript.jsx'] = ['eslint']
 let g:ale_fixers['typescript'] = ['eslint']
 let g:ale_fixers['typescript.jsx'] = ['eslint']
+let g:ale_fixers['rust'] = ['rustfmt']
 let g:ale_fix_on_save = 1
 " let g:ale_javascript_prettier_options = '--single-quote --tab-width 4'
 
@@ -193,6 +194,7 @@ let g:ale_linters['javascript'] = ['eslint']
 let g:ale_linters['javascript.jsx'] = ['eslint']
 let g:ale_linters['typescript'] = ['eslint', 'tsserver']
 let g:ale_linters['typescript.jsx'] = ['eslint', 'tsserver']
+let g:ale_linters['rust'] = ['analyzer']
 let g:ale_lint_on_save = 1
 
 let g:ale_lint_on_text_changed = 'never'

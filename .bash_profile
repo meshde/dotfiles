@@ -263,3 +263,4 @@ function cd {
         source .todo.sh
     fi
 }
+. "$HOME/.cargo/env"
