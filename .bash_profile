@@ -268,4 +268,5 @@ function cd {
         source .todo.sh
     fi
 }
-. "$HOME/.cargo/env"
+
+if [ -f "$HOME/.cargo/env" ]; then . "$HOME/.cargo/env"; fi
