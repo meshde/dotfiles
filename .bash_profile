@@ -257,6 +257,11 @@ progress() {
 function cd {
     # actually change the directory with all args passed to the function
     builtin cd "$@"
+    if [ -f ".env" ] ; then
+      tmpfile=`uuidgen`
+     sed 's/^/export /' .env > /tmp/$tmpfile
+     source /tmp/$tmpfile
+    fi
     # if there's a regular file named ".todo.sh"...
     if [ -f ".todo.sh" ] ; then
         # source it
