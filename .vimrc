@@ -227,7 +227,7 @@ endif
 nnoremap K :grep! -F "<C-R><C-W>"<CR>:cw<CR>
 
 " Code Folding
-set foldmethod=syntax
+set foldmethod=manual
 set foldlevelstart=99
 
 " Horizontal Scrolling
