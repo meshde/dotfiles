@@ -8,6 +8,7 @@ export PATH=$PATH:~/Mehmood
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:~/Mehmood/depot_tools
 export mn=media-net
+export HISTCONTROL=ignorespace
 export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] \w\[\033[0;32m\] ($(git branch 2>/dev/null | grep '^*' | colrm 1 2))\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
 export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 export PUPPETEER_EXECUTABLE_PATH=`which chromium`
