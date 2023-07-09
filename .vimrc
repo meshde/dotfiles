@@ -50,6 +50,7 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'justinmk/vim-sneak'
 Plugin 'rhysd/git-messenger.vim'
 Plugin 'prisma/vim-prisma'
+Plugin 'mustache/vim-mustache-handlebars'
 
 
 call vundle#end()
