@@ -186,12 +186,12 @@ let g:ale_fixers['javascript.jsx'] = ['eslint']
 let g:ale_fixers['typescript'] = ['eslint']
 let g:ale_fixers['typescript.jsx'] = ['eslint']
 let g:ale_fixers['rust'] = ['rustfmt']
-let g:ale_fixers['python'] = ['autoflake']
+let g:ale_fixers['python'] = ['black']
 let g:ale_fix_on_save = 1
 " let g:ale_javascript_prettier_options = '--single-quote --tab-width 4'
 
 let g:ale_linters = {}
-let g:ale_linters['python'] = ['flake8', 'pylint']
+let g:ale_linters['python'] = ['flake8', 'pylint', 'pylsp']
 let g:ale_linters['json'] = ['jq']
 let g:ale_linters['javascript'] = ['eslint', 'tsserver']
 let g:ale_linters['javascript.jsx'] = ['eslint', 'tsserver']
@@ -292,3 +292,5 @@ if filereadable(s:local_vimrc) && s:global_vimrc != s:local_vimrc
 endif
 
 let g:startify_change_to_dir = 0
+call ch_logfile(expand('/tmp/chlogfile.log'), 'w')
+
