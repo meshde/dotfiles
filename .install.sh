@@ -8,7 +8,7 @@ echo "Command-line utilities installed."
 
 # Install brew if not installed
 command -v brew >/dev/null 2>&1 || { echo >&2 "Installing Homebrew Now..."; \
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"; }
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"; }
 echo "Homebrew installed."
 
 echo "Installing cmake..."
