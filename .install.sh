@@ -30,6 +30,8 @@ echo "Installing YouCompleteMe daemon..."
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --all
 echo "YCMD installed."
+
+brew install vim
 brew install the_silver_searcher
 brew install httpie
 brew install jq
