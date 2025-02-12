@@ -1,5 +1,6 @@
 #!/bin/bash
 
+chsh -s /bin/bash
 # Install command line utilities 
 echo "Installing Command-line utilties with xcode-select..."
 xcode-select --install
