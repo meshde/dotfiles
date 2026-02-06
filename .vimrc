@@ -51,6 +51,8 @@ Plugin 'justinmk/vim-sneak'
 Plugin 'rhysd/git-messenger.vim'
 Plugin 'prisma/vim-prisma'
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'Exafunction/windsurf.vim'
+Plugin 'pasky/claude.vim'
 
 
 call vundle#end()
@@ -131,9 +133,13 @@ nmap <C-g><C-n> :cn<CR>
 nmap <C-g><C-p> :cp<CR>
 nmap <C-o> o<Esc>
 nmap <C-s> :w<CR>
+nnoremap <C-g> :Git<CR>
+nnoremap <C-l> :Git blame<CR>
 nmap <C-w>* <C-w>s*
 nnoremap zz :update<cr>
 nmap <C-_> :ALEGoToDefinition<CR>
+nmap <C-h> :ALEHover<CR>
+nmap <C-d> :ALEDetail<CR>
 
 inoremap { {}<Left>
 inoremap {} {}
@@ -183,15 +189,15 @@ let g:ale_fixers = {}
 let g:ale_fixers['javascript'] = ['eslint']
 let g:ale_fixers['json'] = ['jq']
 let g:ale_fixers['javascript.jsx'] = ['eslint']
-let g:ale_fixers['typescript'] = ['eslint']
-let g:ale_fixers['typescript.jsx'] = ['eslint']
+let g:ale_fixers['typescript'] = ['eslint', 'prettier']
+let g:ale_fixers['typescript.jsx'] = ['eslint', 'prettier']
 let g:ale_fixers['rust'] = ['rustfmt']
 let g:ale_fixers['python'] = ['black']
 let g:ale_fix_on_save = 1
 " let g:ale_javascript_prettier_options = '--single-quote --tab-width 4'
 
 let g:ale_linters = {}
-let g:ale_linters['python'] = ['flake8', 'pylint', 'pylsp']
+let g:ale_linters['python'] = ['ruff', 'pylint', 'pylsp']
 let g:ale_linters['json'] = ['jq']
 let g:ale_linters['javascript'] = ['eslint', 'tsserver']
 let g:ale_linters['javascript.jsx'] = ['eslint', 'tsserver']

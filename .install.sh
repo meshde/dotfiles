@@ -49,5 +49,6 @@ brew tap shaunsingh/SFMono-Nerd-Font-Ligaturized
 brew install --cask font-sf-mono-nerd-font-ligaturized
 brew install csvkit
 brew install pgformatter
+brew install rust-analyzer
 
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > .git-completion.bash
